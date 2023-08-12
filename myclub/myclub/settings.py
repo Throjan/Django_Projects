@@ -76,23 +76,23 @@ WSGI_APPLICATION = 'myclub.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': BASE_DIR / 'db.sqlite3',
-#     }
-# }
-
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'railway',
-        'USER': 'postgres',
-        'PASSWORD': 'N2tEig58IOGdKM99JOXc',
-        'HOST': 'containers-us-west-78.railway.app',
-        'PORT': '7230'
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'railway',
+#         'USER': 'postgres',
+#         'PASSWORD': '6dJNYBkFIsQora7daAOk',
+#         'HOST': 'containers-us-west-200.railway.app',
+#         'PORT': '7176'
+#     }
+# }
 
 
 # Password validation
